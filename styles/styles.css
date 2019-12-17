@@ -1,0 +1,184 @@
+
+html, body header { overflow-x: hidden; }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d4d4d4;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.jumbotron-home {
+    background-image: url('../images/wonder_sign.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    /*background-color: #bbb156;*/
+    background-color: #888888;
+    color: #d4d4d4;
+    min-height: 300px;
+    transition: all 2s ease-in-out;
+}
+
+.jumbotron-events {
+    background-image: url('../images/wonder_show.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 45%;
+    /*background-color: #bbb156;*/
+    background-color: #888888;
+    color: #d4d4d4;
+    min-height: 300px;
+    transition: all 2s ease-in-out;
+}
+
+.jumbotron .row {
+    margin-top:-50px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size:90px;
+    padding-left: 10px;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border-style: none;
+    
+}
+
+.dropdown-menu a {
+    color: #d4d4d4;
+}
+
+.nav-item {
+    margin: 0px;
+}
+
+a {
+    color: #d4d4d4;
+}
+
+a:hover {
+    color: rgb(128, 128, 128);
+
+}
+
+li .nav-item {
+    margin: 10px 0px;
+}
+
+.navbar-nav li {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(65,69,66);
+}
+
+footer a {
+    color: #d4d4d4;
+}
+
+.modal-header {
+    background-color: #b4b4b4;
+}
+
+.modalTitle {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+#homeTitle {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+#remember {
+    font-size: 12px;
+}
+
+h5 {
+    font-size: 10px;
+}
+
+footer h5 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 0;
+    text-align: right;
+}
+
+footer {
+    margin-right: 0;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+}
+
+.card-footer a{
+    color: #274970;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+
+hr {
+    margin-top: -10px;
+}
+
+footer ul li {
+    font-size: 12px;
+}
+
+body {
+    margin-right: -40px;
+}
+
+@media only screen and (max-width: 576px) {
+    .jumbotron {
+      min-height: 200px;
+    }
+
+    .jumbotron li {
+        margin: 3px 0;
+    }
+
+    footer .nav-item {
+      font-size: 10px;
+
+    }
+  }
+
+  .events .card {
+    margin-bottom: 10px;
+  }
+
+  .bg-dark {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+  }
+
+.sticky-top {
+    top: 0.5em;
+}
+
+.sticky-top a {
+    color: gray;
+    font-size: 14px;
+}
